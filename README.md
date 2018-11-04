@@ -12,7 +12,13 @@ This pipeline allow reserchers to find variants throughout the genome and annota
 - Bcftools
 - R
 
-## Pipeline for variant calling using samtools and bcftools
+## RNA-SEQ PIPELINE
+This pipeline performs the following tasks:
+
+- perform quality control on FastQ files (using FastQC)
+- align reads of each sample in a run against reference genome (using Bowtie)
+- perform quality control on generated BAM files (using Samtools)
+- variant calling, filtering and annotation (using Bcftools)
 
 This shell script perform step by step variants calling from raw reads files. It uses bowtie1/bowtie2, samtools and bcftools.\
 Outline of the pipeline is described file "pipeline.txt".\
