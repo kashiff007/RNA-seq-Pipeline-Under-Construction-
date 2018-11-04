@@ -20,6 +20,7 @@ This pipeline performs the following tasks:
 - perform quality control on generated BAM files (using Samtools)
 - variant calling, filtering and annotation (using Bcftools)
 
+## Pipeline Workflow
 This shell script perform step by step variants calling from raw reads files. It uses bowtie1/bowtie2, samtools and bcftools.\
 Outline of the pipeline is described file "pipeline.txt".\
 Each steps with the commands are described in "command_description.txt".\
