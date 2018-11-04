@@ -1,4 +1,4 @@
-# **Pipeline for Variant Calling: From FastQ to annotated Varinats**
+# **Pipeline for Variant Calling: From FastQ to annotated Variations**
 
 ##### Kashif Nawaz
 \
