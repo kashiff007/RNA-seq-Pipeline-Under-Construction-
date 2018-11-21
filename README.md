@@ -1,4 +1,4 @@
-# **Pipeline for Variant Calling: From FastQ to annotated Variations**
+# **Complete Pipeline for RNA-seq data analysis: From FastQ to differntial gene expression to annotated Variations**
 
 ##### Kashif Nawaz
 \
