@@ -7,9 +7,10 @@ Varinats are the alterations in the genome which can occurs from single nucleoti
 This pipeline allow reserchers to find variants throughout the genome and annotate them with specific functions. The pipeline employs the Bcftools from Samtools to perform variant calling and is based on the best practices for variant discovery analysis outlined by the several institutions. Once SNPs have been identified, SnpEff is utilized to annotate and predict the effects of the variants.
 
 ## List of Tools used in this Pipeline:
-- Bowtie
+- TopHat
 - Samtools
 - Bcftools
+- Cufflinks
 - R
 
 ## RNA-SEQ PIPELINE
